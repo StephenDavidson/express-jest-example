@@ -1,10 +1,11 @@
-const express = require('express')
-const app = express()
-require('./user/user.js')(app)
+const express = require('express');
 
-app.get('/', (req, res) => res.send('GET method'))
-app.post('/', (req, res) => res.send('POST method'))
-app.delete('/', (req, res) => res.send('DELETE method'))
-app.put('/', (req, res) => res.send('PUT method'))
+const app = express();
+require('./user/user.js')(app);
 
-module.exports = app
+app.get('/', (req, res) => res.send('GET method'));
+app.post('/', (req, res) => res.send('POST method'));
+app.delete('/', (req, res) => res.send('DELETE method'));
+app.put('/', (req, res) => res.send('PUT method'));
+
+module.exports = app;

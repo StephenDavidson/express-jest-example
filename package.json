@@ -8,7 +8,6 @@
     "test:watch": "jest --watchAll",
     "start": "node server.js",
     "start:watch": "nodemon server.js"
-
   },
   "author": "Stephen Davidson",
   "license": "MIT",
@@ -19,6 +18,9 @@
     "@babel/core": "^7.9.6",
     "@babel/preset-env": "^7.9.6",
     "babel-jest": "^26.0.1",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2",
     "jest": "^26.0.1",
     "supertest": "^4.0.2"
   }
