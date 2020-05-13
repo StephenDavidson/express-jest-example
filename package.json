@@ -1,0 +1,25 @@
+{
+  "name": "test-api",
+  "version": "1.0.0",
+  "description": "Test api",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watchAll",
+    "start": "node server.js",
+    "start:watch": "nodemon server.js"
+
+  },
+  "author": "Stephen Davidson",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "babel-jest": "^26.0.1",
+    "jest": "^26.0.1",
+    "supertest": "^4.0.2"
+  }
+}
